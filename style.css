@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #020147;
+    padding: 35px 0 15px 35px;
+}
+.container{
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+.h2{
+    font-size: 40px;
+}
+h3{
+    color: #020147;
+    border-bottom: 1px solid #000;
+}
+.name{
+    margin-right: 10em;
+
+}
+.name h4{
+    margin-bottom: 1em;
+}
+main{
+    padding: 15px 35px 0;
+}
+h4{
+    font-weight: normal;
+}
+.icon-tag{
+    margin: 15px auto;
+}
+.fas.fa-briefcase,
+.fas.fa-puzzle-piece,
+.fas.fa-graduation-cap,
+.fas.fa-certificate{
+    color: #020147;
+    margin-right: 15px;
+}
+.experience{
+    display: grid;
+    width: 100%;
+}
+.dates{
+    margin-right: 20px;
+    margin-bottom: 6px;
+}
+.job-description{
+    margin-bottom: 20px;
+}
+.education{
+    display: grid;
+    width: 25%;
+}
+.certification{
+    margin-top: 15px;
+}
+.footer{
+    height: 30px;
+    background-color: #020147;
+}
+@media (max-width:768px) {
+    header{
+        padding: 35px 0 15px 25px;
+    }
+    .education{
+        width: 100%;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .name{
+        margin-right: 1em;
+    
+    }
+}
